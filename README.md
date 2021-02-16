@@ -1,2 +1,1 @@
-# gumoil.github.io
-The copy of original www.gumoil.com site
+This is the copy of original www.gumoil.com site which has been supported by Karl Koenig. Karl Koenig died early in the morning on January 18th, 2012 after a protracted illness. Should you choose to read about Karl and his career [please read this article recently published](https://gumoil.github.io/wp-content/uploads/Karl-Koenig-February2012NL.pdf) featuring Karl and his photography.
