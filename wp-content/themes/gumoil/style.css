@@ -1,0 +1,52 @@
+/*  
+Theme Name: Gumoil.com
+Theme URI: http://www.gumoil.com/
+Description: Based on Mindshare Classic theme with dynamic sidebar support (widgets), left/right sidebars and three column layout.
+Version: 1.0
+Author: Mindshare Studios
+Author URI: http://mindsharestudios.com/
+*/
+
+body { text-align:center; margin:0; padding:0; font-family:"Trebuchet MS", Helvetica, sans-serif; font-size:14px; color:#292929; background-color:#E0DFCE; background-image:url(images/bg.jpg); background-repeat:no-repeat; background-position:top; }
+.mindshare #container { width:800px; height:650px; text-align:left; margin:0 auto; }
+.mindshare #header { font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif; padding:0; margin-top:71px; height:66px; color:#5B7876; padding:18px 0 0 25px; }
+.mindshare #header h1 { padding:0; margin:0; font-size:18px; text-transform:uppercase; }
+.mindshare #header h2 { padding:0; margin:0; font-size:18px; font-weight:normal }
+.mindshare #sidebar { margin:0; height:32px; font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif; font-size:16px; color:#683A00; padding:0 20px 0 0; }
+.mindshare #sidebar ul { margin:0; padding:5px 0 0 0; list-style-type:none; }
+.mindshare #sidebar ul li { display:inline; padding-left:22px; }
+.mindshare #sidebar ul li a { color:#683A00; }
+.mindshare #sidebar2 { display:none; }
+.mindshare #maincontent { margin:0; padding:20px 20px 0px 20px; height:500px; }
+.mindshare #maincontent a { color:#683A00; text-decoration:underline; }
+.mindshare #maincontent a:hover { text-decoration:none; }
+.mindshare #maincontent h1, .mindshare #maincontent h2, .mindshare #maincontent h3 { font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif; color:#412A22; font-size:18px; font-weight:normal; }
+.mindshare #maincontent h1 { font-weight:bold; font-size:24px; font-family:"Trebuchet MS", Helvetica, sans-serif; }
+.mindshare #maincontent h2 { font-weight:bold; font-size:20px; }
+.mindshare #footer { padding:0 10px 0 20px }
+.floatr { float:right; margin-left:8px }
+.floatl { float:left; margin-right:8px }
+.clearfloat { clear:both; height:0; font-size:1px; line-height:0 }
+acronym, abbr { border-bottom:1px dashed #333; font-size:90%; letter-spacing:.07em; }
+/* added for new search form */
+#search input { background-color: #D6D7D9; border: 1px inset #000; font-size: 0.7em; width: 120px; }
+#search input:focus { background: #FFFFFF; border: 1px inset #333; }
+#search .searchimg { background:url(search.gif) 0 0 no-repeat; }
+.contacterror { border: 2px solid #ff0000; }
+a { color:#683A00; text-decoration:none; }
+a:hover { text-decoration:underline; }
+.mindshare #footer p { margin:5px 0 30px 5px; color:#5B7876; font-size:10px; }
+.mindshare #footer a:link, #footer a:visited { color:#666666; }
+.mindshare #footer a:hover { color:#683A00; text-decoration:none; }
+.linklove { display:none; }
+.current_page_item { font-weight:bold; }
+.aligncenter, dl.aligncenter { display: block; margin-left: auto; margin-right: auto; }
+.alignleft { float: left; }
+.alignright { float: right; }
+.wp-caption { border: 1px solid #ddd; text-align: center; background-color: #f3f3f3; padding-top: 4px; margin: 10px; -moz-border-radius: 3px; -khtml-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; }
+.wp-caption-text { font-size:10px; color:#333333; }
+.wp-caption img { margin: 0; padding: 0; border: 0 none; }
+.wp-caption-dd { font-size: 11px; line-height: 17px; padding: 0 4px 5px; margin: 0; }
+.mindshare #maincontent img.alignnone { margin:0 10px; }
+.mindshare #maincontent img.alignright { margin-left:10px; }
+.mindshare #maincontent img.alignleft { margin-right:20px; }

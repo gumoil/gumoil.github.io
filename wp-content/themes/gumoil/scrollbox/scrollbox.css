@@ -1,0 +1,81 @@
+/*---------------------------------
+	scroll box css
+---------------------------------*/
+
+/* set overall width (txt & scroller) */
+#scrollBox {
+width:750px; 
+}
+
+/* set txt properties */
+#scrollerContainer {
+clip:rect(0,730px,425px,0);
+width:730px;
+height:425px;
+overflow:hidden;
+position:relative;
+float:left;
+}
+
+#scrollerButtons {
+height:244px; /* same size as the imgs */
+width:10px;
+position:relative;
+float:right;
+}
+
+#scrollerContent {
+width:95%;
+top:0;
+left:0;
+margin:0; /* adjust content whitespace here */
+position:absolute;
+
+}
+
+#scrollerButtons #track {
+background:url("scrollbar_bg.gif") top left no-repeat;
+height:170px;
+left:0;
+position:absolute;
+top:0;
+width:10px;
+}
+
+#scrollerButtons #drag {
+background:url("scrollbar_drag.gif") top left repeat-y;
+cursor:pointer;
+height:70px;
+left:0;
+position:absolute;
+top:0;
+width:10px;
+}
+
+#scrollerButtons #up {
+background:url("scrollbar_up.gif") top left no-repeat;
+cursor:pointer;
+height:7px;
+left:0;
+position:absolute;
+top:195px;
+width:10px;
+}
+
+#scrollerButtons #up:hover {
+background:url("scrollbar_up_roll.gif") top left no-repeat;
+}
+
+#scrollerButtons #down {
+background:url("scrollbar_down.gif") top left no-repeat;
+cursor:pointer;
+height:7px;
+left:0;
+position:absolute;
+top:220px;
+width:10px;
+}
+
+#scrollerButtons #down:hover {
+background:url("scrollbar_down_roll.gif") top left no-repeat;
+}
